@@ -4,4 +4,6 @@
 리스트
 - Spring
 - Spring Boot
+- AWS
+- JavaScript
 
