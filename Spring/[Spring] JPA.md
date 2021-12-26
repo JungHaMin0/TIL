@@ -1,4 +1,4 @@
-## Spring JPA, ORM
+## Spring JPA, ORM, 영속성
 
 ### JPA란? 
 JPA는 persistence이다. => Java Persistence API
@@ -24,3 +24,12 @@ Object Relational Mapping
 자바와 DB도 DB의 오브젝트를 자바가 못 알아먹어서 자바가 OBJECT를 직접 VO처럼 생성한다
 그리고 하나하나 Connection을 해줘야하고, 쿼리문도 해야하는데 여기서!! JPA는 함수 하나로
 모든 것을 해준다. 끗. 즉 이런 반복적인 CRUD를 함수 하나로 줄여준다. 즉 이런 것들을 JPA의 ORM이 해결해줌.
+
+
+### JPA의 영속성
+* 컨텍스트-> 그 대상의 모든 정보
+영속성 컨텍스트(Context): 데이터를 영구적으로 저장
+[자바 - 영속성 컨텍스트 - DB] (영속성 컨텍스트는 자바 Object)
+자바에서 변경된 데이터는 영속성 컨텍스트에도 변경이 된다 
+
+### JPA는 DB와 OOP 불일치성을 해결하기 위한 방법론을 제공한다.
