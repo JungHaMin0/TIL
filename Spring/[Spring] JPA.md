@@ -43,3 +43,6 @@ DB의 Team: int id, int name | User: int id, String name, int team_id가 있다�
 int team_id를 => Team team_id로 바꿔서 오브젝트화 시켜준다 그러면 관계가 성립이 되고 JAVA에서 컨트롤 권한을 가진다.
 
 * OOP: 객체지향 프로그래밍
+
+JPA는 Spring에서 필요한 방법론이다.
+내가 이제 해야할 것은 이런 것을 이용하고 애자일 방법론과 
