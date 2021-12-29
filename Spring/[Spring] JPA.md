@@ -5,6 +5,9 @@ JPA는 persistence이다. => Java Persistence API
 persistence(영속성): 데이터를 실행한 프로그램이 종료되어도 사라지지 않는 것
 즉 Persistence는 영구의 기록이 될 수 있도록 해주는 것
 
+![image](https://user-images.githubusercontent.com/80952596/147633206-113cd177-ff75-4708-b931-078fff4a4b19.png)
+
+
 *API란?
 애플리케이션(A)
 프로그래밍 (P)
