@@ -44,7 +44,12 @@ npm update lodash : lodash를 업데이트
 
 ~유의적버전인 것이다.
 
-프론트ㅇ
+### 버전관리
+cache, dist, node_modules와 같은 폴더들은 버전관리를 할 필요가 없다.
+
+해당 폴더를 삭제 해도 'npm install'을 하면 다시 불러올 수 있다.
+
+npm install == npm run build == npm run dev
 
 
 
